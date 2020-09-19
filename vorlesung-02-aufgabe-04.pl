@@ -17,7 +17,7 @@ for (reverse 1..20)
     print ($_, "\n");
 }
 
-while (true)
+while (true) 
 {
     print "\nBitte geben Sie ein Wort ein: ";
     $wort = <STDIN>;
@@ -26,4 +26,5 @@ while (true)
     {
         print $_ . " " . $wort . "\n";
     }
+    if ($wort eq "ein Wort") { print "\nMonkey read, monkey do! :-)"; last; }
 }
