@@ -4,4 +4,3 @@
 @hallo = "H","a","l","l","o";
 print = @hallo;
 
-
